@@ -13,7 +13,7 @@ public class QtdDeNumeros {
 		else {
 			return 1 + QtdResultado(numero/10); /* Se o numero for maior que 10, haverá 
 			o retorno de 1 + o numero dividido por 10 e ira fazer isso até o numero ser menor que 10. 
-			No final, irá somar 1 em todos os retornos e no finbal retornará a parte inteira. */
+			No final, irá somar 1 em todos os retornos e no finbal retornará apenas a parte inteira. */
 		}
 	}
 }
