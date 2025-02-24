@@ -8,7 +8,7 @@ public class QtdDeNumeros {
 	public int QtdResultado (int numero) {
 		if (numero < 10) {
 			return 1; /* Condicao de parada: Quando o numero fornecido for menor que 10 ele vai retornar 1 como digito. 
-			Poderá somar também esse 1 com os retornos do else. */
+			Poderá somar também esse 1 com os retornosß else. */
 		}
 		else {
 			return 1 + QtdResultado(numero/10); /* Se o numero for maior que 10, haverá 
